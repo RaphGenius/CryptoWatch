@@ -5,7 +5,6 @@ import TableFilters from "./TableFilters";
 
 const HeaderInfos = () => {
   const [headerData, SetHeaderData] = useState([]);
-  console.log(headerData);
 
   useEffect(() => {
     axios
