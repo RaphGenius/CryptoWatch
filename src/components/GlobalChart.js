@@ -49,7 +49,6 @@ const GlobalChart = ({ coinsData }) => {
             fill: colorPicker(coinsData[i].price_change_percentage_24h),
           });
       }
-      console.log(charData);
     }
     setDataArray(charData);
   }, [coinsData]);
